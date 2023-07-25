@@ -1,4 +1,5 @@
 ### Aquatic Forecast Workflow ###
+Sys.setenv("GITHUB_PAT" = "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")
 devtools::install_github("eco4cast/neon4cast")
 install.packages("rMR")
 library(tidyverse)

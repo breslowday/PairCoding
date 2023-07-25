@@ -4,7 +4,7 @@
 
 #Before beginning this exercise, you should have the following three packages installed, which you may not already have installed. If you don't have them installed, you should run the following commands **in your console** to install them. The reason for this is RMarkdown really doesn't like when you try to install packages while knitting a document. So, while you *can* run the code chunk by chunk in RMarkdown, if you go to knit it, you will receive an error.
 
-{r, eval=F}
+
 devtools::install_github('eco4cast/neon4cast')
 
 install.packages('rMR')
